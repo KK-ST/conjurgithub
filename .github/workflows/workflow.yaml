@@ -11,7 +11,7 @@ jobs:
         uses: cyberark/conjur-action@v2.0.4
         with:
           url: https://emeadevops.secretsmgr.cyberark.cloud/api
-          account: kk-github
+          account: conjur
           authn_id: kk-github
           secrets: data/vault/kk-secrets/Database-MySQL-1.1.1.0-admin/username|username;data/vault/kk-secrets/Database-MySQL-1.1.1.0-admin/password|password
       - name: step02
