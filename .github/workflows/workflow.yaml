@@ -2,7 +2,7 @@ name: release
 on: [push]
 jobs:
   fetch-secrets-from-conjur:
-    runs-on: [self-hosted,macOS,ARM64]
+    runs-on: [self-hosted,Linux,x64]
     permissions:
       id-token: 'write'
       contents: 'read'
