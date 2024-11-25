@@ -21,7 +21,3 @@ jobs:
           echo -n '] and password [ '
           echo -n $PASSWORD | sed 's/./& /g'
           echo ']'
-has context menu
-
-
-has context menu
